@@ -1,6 +1,6 @@
 import java.util.Random;
 
-public class UsandoComInt {
+public class UtilizandoComINT {
     public static void main(String[] args) {
         Random random = new Random();
 
