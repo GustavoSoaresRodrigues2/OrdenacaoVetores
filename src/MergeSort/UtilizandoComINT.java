@@ -31,7 +31,24 @@ public class UtilizandoComINT {
         while (w1.length != j && w2.length != k) {
             if (w1[j] >= w2[k]) {
                 w[i] = w1[j];
+                i++;
+                j++;
+            } else {
+                w[i] = w2[k];
+                i++;
+                k++;
             }
+        }
+
+        while (w1.length != j) {
+            w[i] = w1[j];
+            i++;
+            j++;
+        }
+        while (w2.length != k) {
+            w[i] = w2[k];
+            i++;
+            k++;
         }
     }
 }
